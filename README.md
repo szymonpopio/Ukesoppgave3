@@ -8,7 +8,7 @@
 
 ## Dokumentasjon
 ### Installasjon
-For å laste ned prosjektet kan vi bruke git clone og så gå inn i mappen å laste ned alle dependencies
+For å laste ned prosjektet kan vi bruke git clone og så gå inn i mappen å laste ned alle dependencies.
 ```
 git clone https://github.com/szymonpopio/Ukesoppgave3.git
 cd Ukesoppgave3
@@ -28,7 +28,7 @@ Liste over dependencies
 
 ## Produksjonsløsning
 ### Ubuntuserver på VM
-Jeg valgte å gjøre dette ettersom jeg hadde problemer med Heroku og jeg kunne ikke gjøre det på github ettersom at de bare tilbyr hosting av html
+Jeg valgte å kjøre nettsiden på en VM ettersom jeg hadde mange problemer med Heroku, jeg endret IP-adressen til 69 (adressen vi fikk utdelt) og prøvde å clone prosjektet og hoste det gjennom nginx men dette funket ikke så jeg prøvde å gjøre det gjennom windows server men jeg fikk også mange problemer med det så dette finket heller ikke så nettsiden er ikke hostet noe sted.
 	
 ## Utviklingsløsning
 Jeg valgte å bruke node.js ettersom jeg prøvde på MVC mappestruktur men det varierte litt på hva det stod om det for eksempel public/content varierte mye. Jeg følte jeg hadde alt for lite tid til å bygge mye på oppgaven så jeg fikk ikke tid til å lage en database og register.
